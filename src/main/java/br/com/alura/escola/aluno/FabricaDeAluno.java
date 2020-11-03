@@ -1,7 +1,9 @@
-package escola;
+package br.com.alura.escola.aluno;
 
 public class FabricaDeAluno {
 
+	// PADRÃO BUILDER
+	
 	private Aluno aluno;
 
 	public FabricaDeAluno comNomeCPFEmail(String nome, String cpf, String email) {
